@@ -1,7 +1,16 @@
+
 body{
     font-family: "Roboto", sans-serif;
     color: #4D5AE5;
     
+}
+
+:root {
+    --brand-color: #4D5AE5;
+    --brand-color2:#2E2F42;
+    --brand-color3:#404BBF;
+    
+
 }
 
 a{
@@ -14,7 +23,7 @@ ul{
 
 .title{
         font-family: "Raleway", sans-serif; 
-        color: #4D5AE5;
+        color: var(--brand-color);
         font-size: 18px;
         font-weight: 800;
         line-height: 1.16;
@@ -22,12 +31,12 @@ ul{
 }
 
 .title-studio-header{
-    color: #2E2F42;
+    color: var(--brand-color2);
 
 }
 
 .title-list-link{
-        color: #2E2F42;
+        color:var(--brand-color2);
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
@@ -35,11 +44,11 @@ ul{
 }
 
 .title-list-link:hover{
-    color:#404BBF;
+    color:var(--brand-color3);
 }
 
 .title-list-link:focus{
-    color: #404BBF;
+    color: var(--brand-color3);
 }
 
 .contacts{
@@ -51,17 +60,17 @@ ul{
 }
 
 .contacts:hover{
-    color: #404BBF;
+    color: var(--brand-color3);
 }
 
 .contacts:focus{
-    color: #404BBF;
+    color: var(--brand-color3);
 }
 
 
 .pagination-btn{
     background-color: #F4F4FD;
-    color: #4D5AE5;
+    color: var(--brand-color);
     cursor: pointer;
     font-size: 16px;
     font-weight: 500;
@@ -71,17 +80,17 @@ ul{
 
 
 .pagination-btn:hover{
-    background-color: #4D5AE5;
+    background-color: var(--brand-color3);
     color:#FFFFFF;
 }
 
 .pagination-btn:focus{
-    background-color: #4D5AE5;
+    background-color: var(--brand-color3);
     color: #FFFFFF;
 }
 
 .picture-subtitle{
-    color:#2E2F42;
+    color:var(--brand-color2);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -98,7 +107,7 @@ ul{
 }
 
 .footer{
-    background-color: #2E2F42;
+    background-color: var(--brand-color2);
 }
 
 .title-studio-footer{
@@ -107,7 +116,6 @@ ul{
 
 .footer-text{
     color: #F4F4FD;
-    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
