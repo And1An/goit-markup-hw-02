@@ -26,6 +26,16 @@ ul{
 button{
     cursor: pointer;
 }
+
+.logotip{
+        color: var(--brand-color);
+        font-family: "Raleway", sans-serif;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+}
+
 .logo{
         color: var(--brand-color);
         font-family: "Raleway", sans-serif;
@@ -86,12 +96,12 @@ button{
 
 .pagination-btn:hover{
     background-color: var(--brand-color3);
-    color:#FFFFFF;
+    color:var(--brand-color4)
 }
 
 .pagination-btn:focus{
     background-color: var(--brand-color3);
-    color: #FFFFFF;
+    color: var(--brand-color4);
 }
 
 .picture-subtitle{
@@ -152,12 +162,12 @@ button{
         font-weight: 700;
         line-height: 1.071;
         letter-spacing: 0.02em;
-        color: #FFFFFF;
+        color: var(--brand-color4);
 }
 
 .title-btn{
     background-color: var(--brand-color);
-    color: #FFFFFF;
+    color: var(--brand-color4);
     font-family: "Roboto", sans-serif;
 }
 .title-btn:hover{
