@@ -1,18 +1,19 @@
 
+:root {
+    --brand-color: #4D5AE5;
+    --brand-color2: #2E2F42;
+    --brand-color3: #404BBF;
+    --brand-color4: #FFFFFF;
+
+}
 body{
     font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: #FFFFFF;
+    background-color:var(--brand-color4);
     
 }
 
-:root {
-    --brand-color: #4D5AE5;
-    --brand-color2:#2E2F42;
-    --brand-color3:#404BBF;
-    
 
-}
 
 a{
     text-decoration: none;
