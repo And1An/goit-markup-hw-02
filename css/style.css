@@ -1,6 +1,6 @@
 body{
     font-family: "Roboto", sans-serif;
-    color: #434455;
+    color: var(--brand-color5);
     background-color: var(--brand-color4);
 
 }
@@ -11,6 +11,8 @@ body{
     --brand-color2: #2E2F42;
     --brand-color3: #404BBF;
     --brand-color4: #FFFFFF;
+    --brand-color5: #434455;
+    --brand-color6: #F4F4FD;
 
 }
 
@@ -70,7 +72,7 @@ button{
 }
 
 .contacts{
-        color:#434455;
+        color:var(--brand-color5);
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
@@ -88,7 +90,7 @@ button{
 
 
 .pagination-btn{
-    background-color: #F4F4FD;
+    background-color: var(--brand-color6);
     color: var(--brand-color);
     font-size: 16px;
     font-weight: 500;
@@ -116,7 +118,7 @@ button{
 }
 
 .picture-desc{
-    color:#434455;
+    color:var(--brand-color5);
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -138,7 +140,7 @@ button{
 }
 
 .logo-studio-footer {
-    color: #F4F4FD;
+    color: var(--brand-color6);
     font-size: 18px;
     font-weight: 800;
     line-height: 1.16;
@@ -147,7 +149,7 @@ button{
 
 
 .footer-text{
-    color: #F4F4FD;
+    color: var(--brand-color6);
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -190,7 +192,7 @@ button{
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: var(--brand-color5);
 }
 
 .subtitle{
@@ -203,7 +205,7 @@ button{
 }
 
 .aside{
-    background-color: #F4F4FD;
+    background-color: var(--brand-color6);
 }
 .subject{
         color: var(--brand-color2);
@@ -222,7 +224,7 @@ button{
 }
 
 .subject-jobtitle{
-        color: #434455;
+        color:var(--brand-color5);
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
