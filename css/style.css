@@ -1,3 +1,10 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: var(--brand-color4);
+
+}
+
 
 :root {
     --brand-color: #4D5AE5;
@@ -6,12 +13,8 @@
     --brand-color4: #FFFFFF;
 
 }
-body{
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color:var(--brand-color4);
-    
-}
+
+
 
 
 
