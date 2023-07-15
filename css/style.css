@@ -1,5 +1,5 @@
 body{
-    font-family: var(--title-font);
+    font-family: "roboto", sans-serif;
     color: var(--brand-color5);
     background-color: var(--brand-color4);
 
@@ -13,7 +13,6 @@ body{
     --brand-color4: #FFFFFF;
     --brand-color5: #434455;
     --brand-color6: #F4F4FD;
-    --title-font: "Roboto", sans-serif;
 
 }
 
@@ -33,17 +32,10 @@ button{
     cursor: pointer;
 }
 
-.logotip{
-        color: var(--brand-color);
-        font-family: "Raleway", sans-serif;
-        font-size: 18px;
-        font-weight: 800;
-        line-height: 1.16;
-        letter-spacing: 0.03em;
-}
+
 
 .logo{
-        color: var(--brand-color);
+        color: var(--brand-color2);
         font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 800;
@@ -56,7 +48,7 @@ button{
 
 }
 
-.logo-list-link{
+.list-link{
         color:var(--brand-color2);
         font-size: 16px;
         font-weight: 500;
@@ -64,11 +56,11 @@ button{
         letter-spacing: 0.02em;
 }
 
-.logo-list-link:hover{
+.list-link:hover{
     color:var(--brand-color3);
 }
 
-.logo-list-link:focus{
+.list-link:focus{
     color: var(--brand-color3);
 }
 
