@@ -21,9 +21,12 @@ ul{
     list-style: none;
 }
 
+button{
+    cursor: pointer;
+}
 .logo{
-        font-family: "Raleway", sans-serif; 
         color: var(--brand-color);
+        font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 800;
         line-height: 1.16;
@@ -57,6 +60,7 @@ ul{
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        font-style: normal;
 }
 
 .contacts:hover{
@@ -71,7 +75,6 @@ ul{
 .pagination-btn{
     background-color: #F4F4FD;
     color: var(--brand-color);
-    cursor: pointer;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -110,9 +113,23 @@ ul{
     background-color: var(--brand-color2);
 }
 
-.title-studio-footer{
-    color: #F4F4FD;
+.title-footer{
+    color: var(--brand-color);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
 }
+
+.logo-studio-footer {
+    color: #F4F4FD;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+}
+
 
 .footer-text{
     color: #F4F4FD;
@@ -120,4 +137,76 @@ ul{
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+
+.body{
+    background-color: var(--brand-color2);
+}
+
+.title{
+        font-family: "Roboto", sans-serif;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.071;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+}
+
+.title-btn{
+    background-color: var(--brand-color);
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+}
+.title-btn:hover{
+    background-color: var(--brand-color3);
+}
+
+.caption{
+        color: var(--brand-color2);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.caption-desc{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.subtitle{
+        color: var(--brand-color2);
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+}
+
+.subject{
+        color: var(--brand-color2);
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+}
+
+.subject-name{
+        color: var(--brand-color2);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.subject-jobtitle{
+        color: #434455;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
 }
