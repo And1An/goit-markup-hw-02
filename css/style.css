@@ -187,6 +187,9 @@ button{
         letter-spacing: 0.02em;
 }
 
+.aside{
+    background-color: #F4F4FD;
+}
 .subject{
         color: var(--brand-color2);
         font-size: 36px;
@@ -210,3 +213,4 @@ button{
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
+
