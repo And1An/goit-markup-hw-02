@@ -38,16 +38,16 @@ button{
 
 
 .logo{
-        color: var(--brand-color2);
-        font-family: 'Raleway', sans-serif;
-        font-size: 18px;
-        font-weight: 800;
-        line-height: 1.16;
-        letter-spacing: 0.03em;
+    color: var(--brand-color2);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
 }
 
 .logo-studio-header{
-    color: var(--brand-color2);
+    color: var(--brand-color);
 
 }
 
