@@ -1,3 +1,5 @@
+
+
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--brand-color5);
@@ -159,7 +161,7 @@ button{
         font-family: 'Roboto', sans-serif;
         font-size: 56px;
         font-weight: 700;
-        line-height: 1.071;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         color: var(--brand-color4);
 }
