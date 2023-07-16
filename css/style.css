@@ -1,5 +1,5 @@
 body{
-    font-family: "roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: var(--brand-color5);
     background-color: var(--brand-color4);
 
@@ -36,7 +36,7 @@ button{
 
 .logo{
         color: var(--brand-color2);
-        font-family: "Raleway", sans-serif;
+        font-family: 'Raleway', sans-serif;
         font-size: 18px;
         font-weight: 800;
         line-height: 1.16;
@@ -155,7 +155,7 @@ button{
 }
 
 .title{
-        font-family: "Roboto", sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 56px;
         font-weight: 700;
         line-height: 1.071;
@@ -166,7 +166,7 @@ button{
 .title-btn{
     background-color: var(--brand-color);
     color: var(--brand-color4);
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .title-btn:hover{
     background-color: var(--brand-color3);
@@ -190,7 +190,7 @@ button{
 
 .subtitle{
         color: var(--brand-color2);
-        font-family: Roboto;
+        font-family: 'Roboto', sans-serif;
         font-size: 36px;
         font-weight: 700;
         line-height: 1.11;
