@@ -1,5 +1,5 @@
 body {
-    font-family: var(--title-font);
+    font-family: 'Roboto', sans-serif;
     color: var(--brand-color5);
     background-color: var(--brand-color4);
 
@@ -13,7 +13,7 @@ body {
     --brand-color4: #FFFFFF;
     --brand-color5: #434455;
     --brand-color6: #F4F4FD;
-    --title-font: 'Roboto', sans-serif;
+
 
 }
 
