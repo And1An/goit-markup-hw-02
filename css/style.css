@@ -67,6 +67,10 @@ button{
     color: var(--brand-color3);
 }
 
+address{
+    font-style: normal;
+}
+
 .contacts{
         color:var(--brand-color5);
         font-size: 16px;
