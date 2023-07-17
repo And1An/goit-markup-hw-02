@@ -76,7 +76,8 @@ button{
 
 
 .list{
-    color: var();
+    list-style: none;
+    
 
 }
 
