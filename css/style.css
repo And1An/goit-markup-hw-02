@@ -208,7 +208,13 @@ address{
     line-height: 1.5;
     letter-spacing: 0.04em;
 }
+
+
 .title-btn:hover{
+    background-color: var(--brand-color3);
+}
+
+.title-btn:focus{
     background-color: var(--brand-color3);
 }
 
