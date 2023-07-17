@@ -1,13 +1,4 @@
 
-
-body {
-    font-family: 'Roboto', sans-serif;
-    color: var(--brand-color5);
-    background-color: var(--brand-color4);
-
-}
-
-
 :root {
     --brand-color: #4D5AE5;
     --brand-color2: #2E2F42;
@@ -20,14 +11,24 @@ body {
 }
 
 
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--brand-color5);
+    background-color: var(--brand-color4);
+
+}
 
 
 
-a{
+
+
+
+
+a {
     text-decoration: none;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
