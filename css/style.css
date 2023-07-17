@@ -108,6 +108,14 @@ address{
     color: var(--brand-color5);
 }
 
+.contacts-list-link:hover{
+    color: var(--brand-color3);
+}
+
+.contacts-list-link:focus{
+    color: var(--brand-color3);
+}
+
 .pagination-btn{
     background-color: var(--brand-color6);
     color: var(--brand-color);
