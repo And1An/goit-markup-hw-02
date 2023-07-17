@@ -76,6 +76,7 @@ button{
 
 
 .list{
+    color: var();
 
 }
 
@@ -100,6 +101,12 @@ address{
     color: var(--brand-color3);
 }
 
+.contacts-list-link{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--brand-color5);
+}
 
 .pagination-btn{
     background-color: var(--brand-color6);
