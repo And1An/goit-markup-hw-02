@@ -235,6 +235,12 @@ address{
         font-weight: 700;
         line-height: 1.11;
         letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
+}
+
+.subject-list-teammate{
+    background-color: var(--brand-color4);
 }
 
 .aside{
@@ -246,6 +252,8 @@ address{
         font-weight: 700;
         line-height: 1.11;
         letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
 }
 
 .subject-name{
